@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Input from "./Input";
 import Radio from "./Radio";
 import Checkbox from "./Checkbox";
-//import Switch from "react-switch";
+import Switch from "react-switch";
 
 export default function App(props) {
   const [IsActive, setIsActive] = useState(false);
