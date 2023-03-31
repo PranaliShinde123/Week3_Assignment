@@ -7,18 +7,18 @@ export default function Radio(props) {
   const {
     groupName = "group",
     value = "Value",
-    defaultChecked = "false"
+    defaultChecked = "false",
   } = props;
 
   return (
-    <div>
-      <label>{value}</label>
+    <div className="radioSets">
       <input
         type="radio"
         name={groupName}
         value={value}
         defaultChecked={defaultChecked}
       />
+      <label>{value}</label>
     </div>
   );
 }
